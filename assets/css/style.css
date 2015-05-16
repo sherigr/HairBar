@@ -100,6 +100,10 @@ h6 {
     background-color:#BB00BB;
 }
 
+.bk-color-purple {
+  background-color: #4D1B7B;
+}
+
 .bk-color-blue {
     background-color:#0052FF;
 }
@@ -251,7 +255,6 @@ color:#FFFFFF;
     -o-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
 }
-
 
 #slide-head .prev,
 #slide-head .next {
@@ -487,11 +490,6 @@ BRAID
     -ms-filter: grayscale(80%);
 
 }
-/*
-      -webkit-filter: grayscale(.8);
-      filter: grayscale(30%);
-      filter: gray;
-*/
 
 /*==========================================
     CONTACT SECTION
