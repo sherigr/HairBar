@@ -216,7 +216,7 @@ color:#FFFFFF;
   color:#fff;
 }
 
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav > li > a:hover {
   padding: 20px 10px;
   font-size: 16px;
   line-height: 17px;
@@ -241,6 +241,15 @@ color:#FFFFFF;
   color: #FFFFFF;
   font-size: 16px;
 } 
+
+.navbar-default .navbar-text a {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.navbar-default .navbar-text a:hover { 
+  color: #6C6865;
+}
+
 
 /*==========================================
    SLIDE SECTION / CAROUSEL SECTION
@@ -414,7 +423,7 @@ MODEL
   background-attachment: relative;
   background-size: cover;
   background-position: center center;
-  min-height: 400px;
+  min-height: 300px;
   width: 100%;
 
     -webkit-background-size: 100%;
@@ -434,7 +443,7 @@ MODEL
     -o-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
 }
-    
+
 
 /*==========================================
    SERVICES SECTION
@@ -536,12 +545,56 @@ BRAID
   }
 }
 
+@media (min-width: 768px) {
+  .navbar-default .navbar-text {
+    color: #FFFFFF;
+  }
+}
 
-/*Testing to fix dropdown on ipad*/
-@media (max-width: 848px) {
-  .collapse .navbar-collapse {
 
-  } 
+/*Toggle Navbar on iPad*/
+@media (min-width: 768px) and (max-width: 992px) { 
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display:block !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #model {
+    height: 50%;
+    padding: 0px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -553,24 +606,24 @@ BRAID
 /*Contact Us*/
 @media (min-width: 768px) {
   #hours .col-sm-12 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 0;
-  padding-left: 0;
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
 
 /*ON Template */
 @media (max-width: 847px) {
-    .flot-nav {
+  .flot-nav {
     float:left;
   }     
 }
 
 @media (max-width: 1090px) {
-    .img-thumbnail {
-max-width: 50%;
+  .img-thumbnail {
+    max-width: 50%;
   }
 }
 

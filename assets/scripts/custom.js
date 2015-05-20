@@ -48,10 +48,7 @@ jQuery(function ($) {
 
 
 	window.scrollReveal = new scrollReveal();
+	
 
-
-    /*==========================================
-    WRITE  YOUR  SCRIPTS BELOW
-    =====================================================*/
 
 });
