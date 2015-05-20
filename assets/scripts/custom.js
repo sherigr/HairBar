@@ -45,7 +45,7 @@ jQuery(function ($) {
     /*==========================================
  SCROLL REVEL SCRIPTS
  =====================================================*/
-
+	var config = { mobile: false }
 
 	window.scrollReveal = new scrollReveal();
 	

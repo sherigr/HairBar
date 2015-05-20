@@ -423,7 +423,8 @@ MODEL
   background-attachment: relative;
   background-size: cover;
   background-position: center center;
-  min-height: 300px;
+/*  min-height: 300px;*/
+  height: 300px;
   width: 100%;
 
     -webkit-background-size: 100%;
@@ -551,7 +552,6 @@ BRAID
   }
 }
 
-
 /*Toggle Navbar on iPad*/
 @media (min-width: 768px) and (max-width: 992px) { 
   .navbar-header {
@@ -590,18 +590,29 @@ BRAID
   }
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   #model {
     height: 50%;
     padding: 0px;
+  }
+}*/
+
+/*test picture size mobile */
+@media (min-width: 768px) {
+  #model  {
+    max-width: 100%;
+    /*height: auto;*/
+    height: 50%;
   }
 }
 
 @media (max-width: 768px) {
   #map img {
-    height: 200px;
+    height: 250px;
   }
 }
+
+
 
 /*Contact Us*/
 @media (min-width: 768px) {
