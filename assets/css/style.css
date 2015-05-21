@@ -423,8 +423,8 @@ MODEL
   background-attachment: relative;
   background-size: cover;
   background-position: center center;
-/*  min-height: 300px;*/
-  height: 300px;
+  min-height: 400px;
+  /*height: 300px;*/
   width: 100%;
 
     -webkit-background-size: 100%;
@@ -493,7 +493,8 @@ BRAID
   margin: 0;
   position: relative;
   background-position: center center;
-  height: 200%;
+/*  height: 400px;*/
+  height: 80%;
   width: 100%;
 
     -webkit-background-size: 100%;
@@ -590,42 +591,22 @@ BRAID
   }
 }
 
-/*@media (min-width: 768px) {
-  #model {
-    height: 50%;
-    padding: 0px;
-  }
-}*/
 
 /*test picture size mobile */
 @media (min-width: 768px) {
   #model  {
-    max-width: 100%;
-    /*height: auto;*/
-    height: 50%;
+    max-width: 100%; 
+    height: 100%;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
   #map img {
-    height: 250px;
+    height: 100%;
   }
 }
 
 
-
-/*Contact Us*/
-@media (min-width: 768px) {
-  #hours .col-sm-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-
-/*ON Template */
 @media (max-width: 847px) {
   .flot-nav {
     float:left;
@@ -637,6 +618,17 @@ BRAID
     max-width: 50%;
   }
 }
+
+/*Contact Us*/
+@media (min-width: 768px) {
+  #hours .col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 
 
 
