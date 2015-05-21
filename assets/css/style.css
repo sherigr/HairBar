@@ -591,22 +591,26 @@ BRAID
   }
 }
 
+ /* ================================== */
 /*Slide Head On Mobile */
 /* NOT WORKING YET */
 /*@media (min-width: 480px) and (max-width: 768px) {*/
   @media (max-width: 480px) {
 #slide-head h1 {
   font-size: 40px!important;
-  margin-top: 20px;
-  margin-bottom: 60px;
   }
 }
+
 /*@media (min-width: 480px) and (max-width: 768px) {*/
-/*    @media (max-width: 480px) {
+    @media (max-width: 480px) {
  .carousel-content .lead {
-    font-size: 12px!important;
+    font-size: 20px!important;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    overflow: scroll;
    }
- }*/
+ }
+ /* ================================== */
 
 /*test picture size mobile */
 @media (min-width: 768px) {
