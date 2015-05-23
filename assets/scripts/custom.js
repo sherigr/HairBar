@@ -74,15 +74,17 @@ Trying TO Remove Stellar.JS on Mobile
 //         }
 //     };
 
+
+
 // This is disabling on desktop
-// if( !isMobile.any() )
+// if( !isMobile.any() ){
 // $(function(){
 //     $.stellar({
 //     horizontalScrolling: false,
 //     verticalOffset: 50
 //     });
-// });
-
+// 	});
+// }
     /*==========================================
  SCROLL REVEL SCRIPTS
  =====================================================*/
