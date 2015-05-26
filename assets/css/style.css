@@ -254,7 +254,7 @@ color:#FFFFFF;
 /*==========================================
    SLIDE SECTION / CAROUSEL SECTION
 =====================================================*/
-#slide-head {
+/*#slide-head {
   background: url(../img/hair/hairshow.jpg) no-repeat center top;
   padding: 100px 0px 50px 0px;
   text-align: center;
@@ -279,6 +279,34 @@ color:#FFFFFF;
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
+}*/
+
+/* gray picture */
+#slide-head {
+  background: url(../img/hair/hairshowgray2.jpg) no-repeat center top;
+  padding: 100px 0px 50px 0px;
+  text-align: center;
+  background-attachment: relative;
+  background-size: cover;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+
+   -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+/*    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);*/
 }
 
 #slide-head .prev,
@@ -355,13 +383,12 @@ color:#FFFFFF;
   margin-top: 20px;
   margin-bottom: 60px;
  }
- /* Depending on text in 2nd lead, resize margin-bottom to 40px */
-
+ 
 .carousel-content a {
   color: #fff;
 }
 
- /* Smooth Animation */ 
+ /* Smooth Animation  
 @keyframes scaleUp {
   0% {
     opacity: 0;
@@ -416,7 +443,7 @@ color:#FFFFFF;
 /*===========================================
 MODEL
 ========================================*/
-#model { 
+/*#model { 
   background: url(../img/hair/model.jpg) no-repeat center top;
   padding: 100px 0px 50px 0px;
   text-align: center;
@@ -424,7 +451,6 @@ MODEL
   background-size: cover;
   background-position: center center;
   min-height: 400px;
-  /*height: 300px;*/
   width: 100%;
 
     -webkit-background-size: 100%;
@@ -443,8 +469,35 @@ MODEL
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
-}
+}*/
 
+/* Gray Picture */
+#model { 
+  background: url(../img/hair/modelgray2.jpg) no-repeat center top;
+  padding: 100px 0px 50px 0px;
+  text-align: center;
+  background-attachment: relative;
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+  width: 100%;
+
+   -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+/*    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);*/
+}
 
 /*==========================================
    SERVICES SECTION
@@ -456,9 +509,8 @@ MODEL
 /*===================================================
 BRAID
 ===================================================*/
-#braid { 
+/*#braid { 
   background: url(../img/hair/braid.jpg) no-repeat center top;
- /* margin-top: 0px;*/
   padding: 100px 0px 50px 0px;
   text-align: center;
   background-attachment: relative;
@@ -482,8 +534,35 @@ BRAID
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
-}
+}*/
 
+/* gray picture */
+#braid { 
+  background: url(../img/hair/braidgray2.jpg) no-repeat center top;
+  padding: 100px 0px 50px 0px;
+  text-align: center;
+  background-attachment: relative;
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+  width: 100%;
+
+   -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+/*    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);*/
+}
 
 /*==========================================
     MAP SECTION

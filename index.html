@@ -57,8 +57,8 @@
     <header id="header-nav" role="banner">
         <div id="navbar" class="navbar navbar-default">
             <div class="navbar-header">
-             <!--    <a class="navbar-brand" href="#">the hair and color bar</a><p class="navbar-text"><a href="tel:1-212-879-5153">212-879-5153</a></p> -->
-                <a class="navbar-brand" href="#">the hair and color bar</a><p class="navbar-text">212-879-5153</p>
+                <a class="navbar-brand" href="#">the hair and color bar</a><p class="navbar-text"><a href="tel:12128795153">212-879-5153</a></p>
+               <!--  <a class="navbar-brand" href="#">the hair and color bar</a><p class="navbar-text">212-879-5153</p> -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -85,9 +85,9 @@
                 <div class="container">
                     <div class="carousel-content">
                         <h1>A Leading NYC Hair Salon For Color</h1>
-<!--                             <p class="lead"><a href="tel:1-212-879-5153">212-879-5153</a><br>    
-                            </p>  -->  
-                            <p class="lead">212-879-5153<br>    
+                            <p class="lead"><a href="tel:12128795153">212-879-5153</a><br>    
+                            </p>   
+                            <!-- <p class="lead">212-879-5153<br> -->    
                             </p> 
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                     <div class="col-md-3 col-sm-6" data-sr="enter left and move 100px, wait 0.6s">
                         <div class="text-center">
                             <p>
-                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/hair/bob.jpg" alt="">
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/hair/bob.jpg" alt="cut">
                             </p>
                             <h3>Hair Cut</h3>
                                 <p>Hair cuts for men and women</p>                                   
@@ -140,7 +140,7 @@
                     <div class="col-md-3 col-sm-6" data-sr="enter bottom and move 100px, wait 0.6s">
                         <div class="text-center">
                             <p>
-                                <img class="img-responsive img-thumbnail img-circle" src="assets/img/hair/color.png" alt="">
+                                <img class="img-responsive img-thumbnail img-circle" src="assets/img/hair/color.png" alt="color">
                             </p>
                             <h3>Color</h3>
                                 <p>Full spectrum of all hair color services</p>
@@ -149,7 +149,7 @@
                     <div class="col-md-3 col-sm-6" data-sr="enter bottom and move 100px, wait 0.6s">
                         <div class="text-center">
                             <p>
-                               <img class="img-responsive img-thumbnail img-circle" src="assets/img/hair/blow.jpg" alt="">
+                               <img class="img-responsive img-thumbnail img-circle" src="assets/img/hair/blow.jpg" alt="blow dry">
                             </p>
                             <h3>Blow Dry</h3>
                                 <p>For everyday or special occasion</p>     
@@ -158,7 +158,7 @@
                     <div class="col-md-3 col-sm-6" data-sr="enter right and move 100px, wait 0.6s">
                         <div class="text-center">
                             <p>
-                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/hair/blond3.jpg" alt="">
+                                <img class="img-responsive img-thumbnail img-circle"  src="assets/img/hair/blond3.jpg" alt="style">
                             </p>
                             <h3>Style</h3>
                                 <p>We’re always fashion forward and keep you in style</p>                  
@@ -296,40 +296,42 @@
 
     <!--CONTACT SECTION -->
     <section id="contact-section">
-        <div class="wrap-pad">
+        <div class="wrap-pad" itemscope itemtype ="http://schema.org/Organization">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 " data-sr="enter top and move 100px, wait 0.5s">
                     <div class="text-center">
                         <h1><i class="fa fa-tint small-icons bk-color-black"></i>Contact Us</h1>
-                        <p class="lead"><a href="tel:1-2128795153">212-879-5153</a></p>
+                        <p class="lead" itemprop ="telephone"><a href="tel:1-2128795153">212-879-5153</a></p>
                         <!-- <p class="lead">212-879-5153</p> -->
                     </div>
                 </div>
                 <!-- ./ Heading div-->
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                        <!-- LOCATION-->
-                        <div class="col-md-4 col-md-offset-2  col-sm-12" data-sr="enter right and move 100px, wait 0.6s">
-                            <div class="text-center">
-                                <h3><i class="fa fa-home small-icons bk-color-red"></i>Location</h3>
-                                1224 Lexington Avenue <br />
-                                New York, NY 10028 <br />
-                                between 82nd &amp; 83rd<br />
-                            </div>      
-                        </div>
-                            <!--SALON HOURS-->
-                            <div id="hours">
-                                <div class="col-md-4 col-md-offset-0  col-sm-12" data-sr="enter left and move 100px, wait 0.6s">
-                                    <div class="text-center">
-                                        <h4><i class="fa fa-user small-icons bk-color-green"></i>Salon Hours</h3>              
-                                        Monday - Saturday 10am - 7:30pm<br>
-                                        Sunday 10am - 6pm <br>
-                                        <h5><strong>Major Credit Cards Accepted</strong></h5><br>
-                                    </div>
-                                </div>         
+                <div itemscope itemtype ="http://schema.org/Organization"> <!-- microdata -->
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                            <!-- LOCATION-->
+                            <div class="col-md-4 col-md-offset-2  col-sm-12" data-sr="enter right and move 100px, wait 0.6s">
+                                <div class="text-center" itemprop ="address" itemscope itemtype ="http://schema.org/PostalAddress">
+                                    <h3><i class="fa fa-home small-icons bk-color-red"></i>Location</h3>
+                                    <span itemprop ="streetAddress">1224 Lexington Avenue </span>, <br />
+                                    <span itemprop ="addressLocality">New York, NY 10028</span> <br />
+                                    between 82nd &amp; 83rd<br />
+                                </div>      
                             </div>
-                    </div>
-                </div><!--end row-->
+                                <!--SALON HOURS-->
+                                <div id="hours">
+                                    <div class="col-md-4 col-md-offset-0  col-sm-12" data-sr="enter left and move 100px, wait 0.6s">
+                                        <div class="text-center">
+                                            <h4><i class="fa fa-user small-icons bk-color-green"></i>Salon Hours</h3>              
+                                            Monday - Saturday 10am - 7:30pm<br>
+                                            Sunday 10am - 6pm <br>
+                                            <h5><strong>Credit Cards Accepted</strong></h5><br>
+                                        </div>
+                                    </div>         
+                                </div><!-- hours -->
+                        </div> <!--md-8 -->
+                    </div><!--end row-->
+                </div> <!--itemscope -->
             </div><!--end row-->
         </div><!--end wrap-->
     </section>
