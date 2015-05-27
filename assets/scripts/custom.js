@@ -41,6 +41,15 @@ jQuery(function ($) {
 	});
 
 	/*==========================================
+Stellar.js 
+ =====================================================*/
+ $(function(){
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 40
+            });
+        });
+	/*==========================================
 Trying TO Remove Stellar.JS on Mobile
  =====================================================*/
  // Not diabling on mobile
@@ -76,15 +85,47 @@ Trying TO Remove Stellar.JS on Mobile
 
 
 
-// This is disabling on desktop
-// if( !isMobile.any() ){
-// $(function(){
-//     $.stellar({
-//     horizontalScrolling: false,
-//     verticalOffset: 50
-//     });
-// 	});
-// }
+// var isMobile = {
+//     Android: function() {
+//         return navigator.userAgent.match(/Android/i);
+//     },
+//     BlackBerry: function() {
+//         return navigator.userAgent.match(/BlackBerry/i);
+//     },
+//     iOS: function() {
+//         return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+//     },
+//     Opera: function() {
+//         return navigator.userAgent.match(/Opera Mini/i);
+//     },
+//     Windows: function() {
+//         return navigator.userAgent.match(/IEMobile/i);
+//     },
+//     any: function() {
+//         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+//     }
+// };
+// jQuery(document).ready(function(){
+//     if( !isMobile.any() ){
+//         $(window).stellar();
+//     }
+// });
+
+ /*==========================================
+GOOGLE MAP
+ =====================================================*/
+$(document).ready(function() {
+    $('#map').click(function () {
+        $('#map iframe').css("pointer-events", "auto");
+    });
+    
+    $( "#map" ).mouseleave(function() {
+      $('#map iframe').css("pointer-events", "none"); 
+    });
+ });
+
+
+
     /*==========================================
  SCROLL REVEL SCRIPTS
  =====================================================*/
