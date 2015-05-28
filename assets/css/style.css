@@ -4,19 +4,10 @@
 
     http://creativecommons.org/licenses/by/3.0/
 
-    100% To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
-    ========================================================  */
-/*==========================================
-    CUSTOM STYLESHEET FOR TEMPLATE BY BINARYTHEME
-    =====================================================*/
-
-
 
 /*==========================================
     GENERAL  STYLES
-    =====================================================*/
+=====================================================*/
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:500,300,700,400);
 
@@ -260,34 +251,7 @@ color:#FFFFFF;
 /*==========================================
    SLIDE SECTION / CAROUSEL SECTION
 =====================================================*/
-/*#slide-head {
-  background: url(../img/hair/hairshow.jpg) no-repeat center top;
-  padding: 100px 0px 50px 0px;
-  text-align: center;
-  background-attachment: relative;
-  background-size: cover;
-  background-position: center center;
-  min-height: 500px;
-  width: 100%;
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-}*/
-
-/* gray picture */
 #slide-head {
   background: url(../img/hair/hairshowgray2.jpg) no-repeat center top;
   padding: 100px 0px 50px 0px;
@@ -307,12 +271,6 @@ color:#FFFFFF;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-/*    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);*/
 }
 
 #slide-head .prev,
@@ -394,7 +352,7 @@ color:#FFFFFF;
   color: #fff;
 }
 
- /* Smooth Animation  
+  /*Smooth Animation */ 
 @keyframes scaleUp {
   0% {
     opacity: 0;
@@ -448,36 +406,8 @@ color:#FFFFFF;
 
 /*===========================================
 MODEL
-========================================*/
-/*#model { 
-  background: url(../img/hair/model.jpg) no-repeat center top;
-  padding: 100px 0px 50px 0px;
-  text-align: center;
-  background-attachment: relative;
-  background-size: cover;
-  background-position: center center;
-  min-height: 400px;
-  width: 100%;
+=======================================================*/
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-
-
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-}*/
-
-/* Gray Picture */
 #model { 
   background: url(../img/hair/modelgray2.jpg) no-repeat center top;
   padding: 100px 0px 50px 0px;
@@ -497,12 +427,6 @@ MODEL
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-/*    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);*/
 }
 
 /*==========================================
@@ -515,34 +439,7 @@ MODEL
 /*===================================================
 BRAID
 ===================================================*/
-/*#braid { 
-  background: url(../img/hair/braid.jpg) no-repeat center top;
-  padding: 100px 0px 50px 0px;
-  text-align: center;
-  background-attachment: relative;
-  background-size: cover;
-  background-position: center center;
-  min-height: 400px;
-  width: 100%;
-   
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-}*/
-
-/* gray picture */
 #braid { 
   background: url(../img/hair/braidgray2.jpg) no-repeat center top;
   padding: 100px 0px 50px 0px;
@@ -562,42 +459,11 @@ BRAID
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-/*    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);*/
 }
 
 /*==========================================
     MAP SECTION
 =====================================================*/
-/*#map img {
-  padding: 0;
-  margin: 0;
-  position: relative;
-  background-position: center center;
-  height: 80%;
-  width: 100%;
-
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-
-    filter: grayscale(80%);
-    -webkit-filter: grayscale(80%);
-    -moz-filter: grayscale(80%);
-    -o-filter: grayscale(80%);
-    -ms-filter: grayscale(80%);
-
-}*/
 
 #map {
   padding: 0;
@@ -607,11 +473,6 @@ BRAID
   height: 100%;
   width: 100%;
  width: cover; 
-
- /*   -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;*/
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -711,14 +572,12 @@ BRAID
  /* ================================== */
 /*Slide Head On Mobile */
 
-/*@media (min-width: 480px) and (max-width: 768px) {*/
 @media (max-width: 480px) {
   #slide-head h1 {
     font-size: 40px!important;
   }
 }
 
-/*@media (min-width: 480px) and (max-width: 768px) {*/
 @media (max-width: 480px) {
  .carousel-content .lead {
     font-size: 20px!important;
@@ -730,7 +589,6 @@ BRAID
  /* ================================== */
 
 
-/*test picture size mobile */
 @media (min-width: 768px) {
   #model  {
     max-width: 100%; 

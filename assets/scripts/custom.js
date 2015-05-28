@@ -40,7 +40,7 @@ jQuery(function ($) {
 		social_tools: false
 	});
 
-	/*==========================================
+/*==========================================
 Stellar.js 
  =====================================================*/
  $(function(){
@@ -49,69 +49,9 @@ Stellar.js
                 verticalOffset: 40
             });
         });
-	/*==========================================
-Trying TO Remove Stellar.JS on Mobile
- =====================================================*/
- // Not diabling on mobile
-//     $(document).ready(function() {
-//         react_to_window();
-//     });
-    
-// // only activate stellar for window widths above or equal to 1024
-//     var stellarActivated = false;
-    
-//     $(window).resize(function() {
-//         react_to_window();
-//     });
-    
-//     function react_to_window() {
-//         if ($(window).width() <= 1024) {
-//             if (stellarActivated == true) {
-//                 $(window).data('plugin_stellar').destroy();
-//                 stellarActivated = false;
-//             }
-//         } else {
-//             if (stellarActivated == false) {
-
-//                 $.stellar({
-//                    horizontalScrolling: false
-//                });
-                
-//                 $(window).data('plugin_stellar').init();
-//                 stellarActivated = true;
-//             }
-//         }
-//     };
 
 
-
-// var isMobile = {
-//     Android: function() {
-//         return navigator.userAgent.match(/Android/i);
-//     },
-//     BlackBerry: function() {
-//         return navigator.userAgent.match(/BlackBerry/i);
-//     },
-//     iOS: function() {
-//         return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-//     },
-//     Opera: function() {
-//         return navigator.userAgent.match(/Opera Mini/i);
-//     },
-//     Windows: function() {
-//         return navigator.userAgent.match(/IEMobile/i);
-//     },
-//     any: function() {
-//         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-//     }
-// };
-// jQuery(document).ready(function(){
-//     if( !isMobile.any() ){
-//         $(window).stellar();
-//     }
-// });
-
- /*==========================================
+/*==========================================
 GOOGLE MAP
  =====================================================*/
 $(document).ready(function() {
@@ -125,8 +65,7 @@ $(document).ready(function() {
  });
 
 
-
-    /*==========================================
+/*==========================================
  SCROLL REVEL SCRIPTS
  =====================================================*/
 	var config = { mobile: false }
