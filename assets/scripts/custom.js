@@ -23,6 +23,11 @@ jQuery(function ($) {
 		});
 	});
 
+    // COLLAPSE NAVBAR WHEN LINK IS CLICKED
+    $(".navbar-nav li a").click(function(event) {
+        $(".navbar-collapse").collapse('hide');
+    });
+
 	
 
     // LINKS SCROLLING FUNCTION 
