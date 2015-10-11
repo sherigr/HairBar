@@ -122,6 +122,12 @@ h6 {
 .bk-color-maroon {
   background-color: #794044;
 }
+.bk-color-olive {
+  background-color: #666600;
+}
+.bk-color-brt-orange {
+  background-color: #FFA500;
+}
 
 .margin-5 {
     margin:5px;
@@ -641,6 +647,13 @@ BRAID
     padding-left: 0;
   }
 }
+
+@media (max-width: 991px) {
+  #credit-cards h4 {
+    font-size: 16px;
+  }
+}
+
 
 
 
