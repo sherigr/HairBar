@@ -71,12 +71,21 @@ $(document).ready(function() {
 
 
 /*==========================================
- SCROLL REVEL SCRIPTS
+ SCROLL REVEAL SCRIPTS
  =====================================================*/
 	var config = { mobile: false }
 
 	window.scrollReveal = new scrollReveal();
-	
+
+    /*==========================================
+    FOOTER
+  =====================================================*/
+
+  var today = new Date();
+  var year = today.getFullYear();
+
+   $('#footer').html('<p>&copy' + year + ' the hair and color bar</p>');
+
 
 
 });
