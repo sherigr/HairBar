@@ -21,6 +21,10 @@ h6 {
   font-family:'Open Sans', sans-serif;
 }
 
+.salon-name {
+  font-weight: bold;
+}
+
 .flot-nav {
     float:right;
 }
