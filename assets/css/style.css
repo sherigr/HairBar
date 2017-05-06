@@ -124,6 +124,13 @@ h6 {
   background-color: #FFA500;
 }
 
+.bk-color-mid-purple {
+  background-color: #4C4C93;
+}
+.bk-color-mustard {
+  background-color: #EAD340
+}
+
 .margin-5 {
     margin:5px;
 }
@@ -453,6 +460,15 @@ MODEL
 =====================================================*/
 #services-section {
     background-color: #F7F7F7;
+}
+
+#disclaimer, .price {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#disclaimer {
+  padding-top: 50px;
 }
 
 /*===================================================
